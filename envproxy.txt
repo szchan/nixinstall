@@ -1,0 +1,4 @@
+{
+  networking.proxy.default = "http://proxy地址:端口/";  # 如果需要认证：http://用户名:密码@proxy地址:端口/
+  networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+}
